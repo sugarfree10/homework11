@@ -10,12 +10,18 @@ html body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-rows: repeat(2, 250px);
     place-content: center;
     gap: 25px;
 }
 .item {
     border-radius: 10px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
 }
 .item1 {
     background-color: hsl(263, 55%, 52%);
